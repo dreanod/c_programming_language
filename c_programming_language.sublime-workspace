@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"lent",
+				"lengths"
+			],
+			[
 				"PG_RE",
 				"PG_GETARG_TEXT_P"
 			],
