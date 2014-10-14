@@ -121,6 +121,17 @@
 			]
 		]
 	},
+	"buffers":
+	[
+		{
+			"file": "chap1/pow_fct.c",
+			"settings":
+			{
+				"buffer_size": 333,
+				"line_ending": "Unix"
+			}
+		}
+	],
 	"build_system": "",
 	"command_palette":
 	{
@@ -220,18 +231,31 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/denis/Dropbox/repos/c_programming_language"
+	],
 	"file_history":
 	[
 		"/Users/denis/Dropbox/repos/c_programming_language/chap1/fahrenheit.c",
+		"/Users/denis/Dropbox/repos/c_programming_language/chap1/fahrenheit_fct.c",
+		"/Users/denis/Dropbox/repos/c_programming_language/chap1/maxline.c",
 		"/Users/denis/Dropbox/repos/c_programming_language/chap1/fahrenheit2.c",
 		"/Users/denis/Dropbox/repos/c_programming_language/chap1/file_copying.c",
-		"/Users/denis/Dropbox/repos/c_programming_language/chap1/exo1-6.c",
+		"/Users/denis/Dropbox/repos/c_programming_language/chap1/hello.c",
+		"/Users/denis/Dropbox/repos/c_programming_language/chap1/line_counting.c",
 		"/Users/denis/Dropbox/repos/c_programming_language/chap1/exo1-7.c",
+		"/Users/denis/Dropbox/repos/c_programming_language/chap1/exo1-6.c",
+		"/Users/denis/Dropbox/repos/c_programming_language/chap1/exo1-14.c",
+		"/Users/denis/Dropbox/repos/c_programming_language/chap1/exo1-13.c",
+		"/Users/denis/Dropbox/repos/c_programming_language/chap1/exo1-12.c",
+		"/Users/denis/Dropbox/repos/c_programming_language/chap1/exercice1-8.c",
+		"/Users/denis/Dropbox/repos/c_programming_language/chap1/count_digits.c",
 		"/Users/denis/Dropbox/repos/c_programming_language/chap1/character_counting.c",
-		"/Users/denis/Dropbox/repos/c_programming_language/c_programming_language.sublime-project",
-		"/Users/denis/Dropbox/repos/c_programming_language/character_counting.c",
 		"/Users/denis/Dropbox/repos/c_programming_language/chap1/celsius.c",
 		"/Users/denis/Dropbox/repos/c_programming_language/chap1/a.out",
+		"/Users/denis/Dropbox/repos/c_programming_language/c_programming_language.sublime-project",
+		"/Users/denis/Dropbox/repos/c_programming_language/character_counting.c",
 		"/Users/denis/Dropbox/repos/proposal/KAUST_Thesis_Dissertation_LaTeX_11July2012beta/Thesis.tex",
 		"/Users/denis/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/denis/Dropbox/repos/proposal/proposal.sublime-project",
@@ -340,16 +364,7 @@
 		"/Users/denis/Desktop/npz/npz_seasonal.py",
 		"/Users/denis/Desktop/npz/npz_bloom.py",
 		"/Users/denis/Desktop/npz/bayesian_inv_all_and_c_opt.py",
-		"/Users/denis/Desktop/npz/npz.py",
-		"/Users/denis/Dropbox/repos/phd/bayesian-inversion-of-npz-model/latex/bibtex.bib",
-		"/Users/denis/Dropbox/repos/phd/bayesian-inversion-of-npz-model/py/__init__.py",
-		"/Users/denis/Dropbox/repos/phd/bayesian-inversion-of-npz-model/m/extract_data.m",
-		"/Users/denis/Dropbox/thesis/data/tools/download.py",
-		"/Users/denis/Dropbox/thesis/data/chl/seawifs/daily/red_sea/1_extract_region.py",
-		"/Users/denis/Dropbox/repos/phd/bayesian-inversion-of-npz-model/npy/mask_land.npy",
-		"/Users/denis/Dropbox/thesis/projects/current_projects/chl_red_sea_clust/src/gmm1.py",
-		"/Users/denis/Dropbox/thesis/data/tools/h4h5tools-2.2.2/README.txt",
-		"/Users/denis/Dropbox/repos/phd/bayesian-inversion-of-npz-model/clean_workspace.py"
+		"/Users/denis/Desktop/npz/npz.py"
 	],
 	"find":
 	{
@@ -367,6 +382,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"'",
+			"\"",
 			"position",
 			"*position",
 			"[0][0][0]",
@@ -492,9 +509,7 @@
 			"anderson2005jpr",
 			"petihakis2002jms",
 			"badran2005oceanologia",
-			"lme_33",
-			"\\cite",
-			"includegraphics"
+			"lme_33"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -509,6 +524,43 @@
 		"whole_word": false,
 		"wrap": true
 	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "chap1/pow_fct.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
 	"incremental_find":
 	{
 		"height": 23.0
@@ -548,6 +600,7 @@
 	{
 		"height": 0.0
 	},
+	"project": "c_programming_language.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -559,12 +612,16 @@
 		"selected_items":
 		[
 			[
-				"chara",
-				"chap1/character_counting.c"
+				"",
+				"chap1/fahrenheit.c"
 			],
 			[
-				"",
-				"chap1/fahrenheit2.c"
+				"pow",
+				"chap1/pow_fct.c"
+			],
+			[
+				"chara",
+				"chap1/character_counting.c"
 			],
 			[
 				"thesi",
@@ -731,11 +788,11 @@
 		"selected_items":
 		[
 			[
-				"cov",
-				"~/Dropbox/thesis/projects/current_projects/chl_and_space_time_cov_model/py/chl_and_cov.sublime-workspace"
+				"",
+				"~/Dropbox/repos/proposal/proposal.sublime-project"
 			],
 			[
-				"",
+				"cov",
 				"~/Dropbox/thesis/projects/current_projects/chl_and_space_time_cov_model/py/chl_and_cov.sublime-workspace"
 			],
 			[
@@ -753,6 +810,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},
